@@ -1,0 +1,103 @@
+/* Optional: Makes the sample page fill the window. */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+html body {
+    font-family: 'Kanit', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+.custom-map-control-button {
+    background-color: #fff;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 0 0.5em;
+    font: 400 18px Roboto, Arial, sans-serif;
+    overflow: hidden;
+    height: 40px;
+    cursor: pointer;
+}
+
+.custom-map-control-button:hover {
+    background: #ebebeb;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+}
+
+button,
+#show,
+#hide {
+    margin: 20px 0 20px 0;
+    border-radius: 5px;
+    height: 100%;
+}
+
+button:hover {
+    background-color: rgb(38, 131, 100);
+}
+
+h1,
+h2,
+h5,
+h3 {
+    text-align: center;
+    padding: 50px 0 50px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+}
+
+
+/* gallary */
+
+.gallery-wrapper {
+    background-color: #dbdbdb;
+    box-sizing: border-box;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 0 50px 0;
+}
+
+.gallery-scroll {
+    box-sizing: border-box;
+    height: 500px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.gallery {
+    background-color: #dbdbdb;
+    display: flex;
+    box-sizing: border-box;
+    width: max-content;
+    height: 500px;
+    padding: 0px 2px;
+}
+
+.item {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 3px 2px;
+}
+
+.item img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+}
